@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/Style.css">
+    <title>Recipes API</title>
+</head>
+<body>
+
+    <header  class="vh-100  d-flex justify-content-center align-items-start  flex-wrap position-relative "  >
+
+        <nav class=" w-100 navbar navbar-expand-lg navbar-dark bg-opacity">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img   class="nav-img"  src="images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto  text-white ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Recipes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACTS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <h1 class=" w-100 text-white  text-center " >Never Miss a Recipe!</h1>
+
+          <div class=" row container-input   bg-white position-absolute ">
+
+            <div class="col-md-10 g-0">
+                <input id="inpSearch" type="text" class="form-control  "  placeholder="search recipes">  
+
+            </div>
+
+            <div class="col-md-2 g-0 ">
+                <button id="btnSearch" class="btn-mint  btn  " >Search</button>
+
+            </div>
+
+          </div>
+
+    </header>
+
+    <section  class="container-fluid  fluid  py-5" >
+
+            <h2 class="pt-5 text-center" >Recipe Categories</h2>
+            <p class="py-1 text-center"  >Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed tincidunt ut laoreet dolore magna aliquam erat volutpat lorem</p>
+
+        <div class="row  py-5 ">
+
+            <div class="col-md-3">
+                <div class="category">
+                    <h3  class="fw-bolder">Meal Type</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="category">
+                    <h3  class="fw-bolder">Diet & Health</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="category">
+                    <h3  class="fw-bolder" >Ingredient</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="category">
+                    <h3 class="fw-bolder" >Dish Type</h3>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-9">
+
+                    <div class="row"  id="request" >
+
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="col-md-3" id="recipeDetails">
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+ 
+    
+    <script src="JS/Script.js"></script>
+</body>
+</html>

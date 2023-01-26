@@ -1,0 +1,72 @@
+body
+{
+    font-family: 'segoe ui light';
+}
+
+header
+{
+    background-image: url(../images/mainBg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav-img
+{
+    width: 70px;
+}
+.bg-opacity
+{
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar-nav
+{
+    font-size: 15px;
+}
+.text-white
+{
+    font-weight: 700;
+}
+.container-input
+{
+    width: 80%;
+    padding: 50px;
+    border-radius: 10px;
+    bottom: -45px;
+    box-shadow: 0px 20px 20px 0px #c1baba;
+}
+.color
+{
+    color:#ff7d5f ;
+}
+.btn-mint
+{
+    background-color: #ff7d5f;
+    color: #fff;
+    padding-right: 110px;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.category
+{
+    text-align: center;
+    background-image: url(../images/category-bg.png);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.fluid 
+{
+    background: #faf3f1 url(../images/1.png);
+
+}
+.container-fluid p 
+{
+    width: 40%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.item img 
+{
+    height: 250px !important ; 
+}
